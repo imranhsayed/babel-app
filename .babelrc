@@ -1,13 +1,13 @@
 {
   "presets": [
 	[
-	  "env",
+	  "@babel/preset-env",
 	  {
 		"targets": {
 		  "browsers": [ "last 2 versions" ]
 		},
 		// Madule: false means Hey babel don't do anything with the module let babel handle it.
-		"module": false
+		"modules": false
 	  }
 	]
   ]
