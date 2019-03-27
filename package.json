@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "./node_modules/.bin/babel src --out-dir lib"
+    "babel": "./node_modules/.bin/babel src -d lib"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-es2015-arrow-functions": "^6.22.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.4.2"
   }
 }
