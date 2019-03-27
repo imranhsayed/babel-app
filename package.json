@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+	"babel": "./node_modules/.bin/babel",
     "dev": "webpack --watch --mode=development",
 	"prod": "webpack --mode=prodcution"
   },
@@ -18,6 +19,10 @@
     "path": "^0.12.7",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
+  },
+  "engines": {
+	"node": "8.12.0",
+	"npm": "6.4.1"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0"
